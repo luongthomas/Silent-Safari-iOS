@@ -7,7 +7,7 @@ struct SilentSafariApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     #endif
 
-    let contentBlockerIdentifier = "\(Bundle.main.bundleIdentifier ?? "luongt.thomas.silentsafari").ContentBlocker"
+    let contentBlockerIdentifier = "\(Bundle.main.bundleIdentifier ?? "luongt.thomas.SilentSafari").ContentBlocker"
     let appState = AppState(initialContentBlockerEnabledState: .undetermined)
 
     init() {
