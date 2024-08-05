@@ -36,7 +36,7 @@ Requires macOS 11 or later. [Direct download](https://github.com/oblador/hush/re
 ## Features
 
 ### Private
-Unlike some blockers, Hush has absolutely no access to your browser habits or passwords. Nor does it track behavior or collect crash reports - nothing leaves your device.
+Unlike some blockers, Silent Safari has absolutely no access to your browser habits or passwords. Nor does it track behavior or collect crash reports - nothing leaves your device.
 
 ### Free
 Everything is free of charge. Forever. No in-app purchases, no nonsense. However, any help towards covering the yearly Apple Developer fee is greatly appreciated.
@@ -114,3 +114,9 @@ make blocklist
 Silent Safari: [MIT License](http://opensource.org/licenses/mit-license.html). © Joel Arvidsson 2020-present
 
 [Fanboy List](https://easylist.to): [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). © Rick Petnel and contributors 2005
+
+
+## Credits
+
+This repo was forked from a project named [Hush](https://github.com/oblador/hush)
+They have an amazing app and my project couldn't exist without their wonderful work.
