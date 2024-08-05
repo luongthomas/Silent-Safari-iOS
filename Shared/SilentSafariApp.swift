@@ -2,12 +2,12 @@ import SwiftUI
 import SafariServices
 
 @main
-struct HushApp: App {
+struct SilentSafariApp: App {
     #if os(macOS)
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     #endif
 
-    let contentBlockerIdentifier = "\(Bundle.main.bundleIdentifier ?? "se.oblador.Hush").ContentBlocker"
+    let contentBlockerIdentifier = "\(Bundle.main.bundleIdentifier ?? "luongt.thomas.silentsafari").ContentBlocker"
     let appState = AppState(initialContentBlockerEnabledState: .undetermined)
 
     init() {

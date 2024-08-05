@@ -25,7 +25,7 @@ struct InstructionsView: View {
     var body: some View {
         VStack (alignment: .leading, spacing: 30) {
             VStack (alignment: .leading, spacing: 10) {
-                Text("Hush is not enabled")
+                Text("SilentSafari is not enabled")
                     .font(.title)
                     .accessibilityIdentifier("extension disabled")
                 Text("Follow these steps to enable:")
@@ -51,7 +51,7 @@ struct InstructionsView: View {
                     imageName: "Checkbox",
                     label:
                         Text("Enable ") +
-                        Text("Hush").bold()
+                        Text("SilentSafari").bold()
                 )
             }
             #else
@@ -79,7 +79,7 @@ struct InstructionsView: View {
                     imageName: "Toggle",
                     label:
                         Text("Enable ") +
-                        Text("Hush").bold()
+                        Text("SilentSafari").bold()
                 )
             }
             

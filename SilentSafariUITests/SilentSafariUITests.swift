@@ -1,6 +1,6 @@
 import XCTest
 
-class HushUITests: XCTestCase {
+class SilentSafariUITests: XCTestCase {
     var app: XCUIApplication!
     var settingsApp: XCUIApplication!
 
@@ -19,8 +19,8 @@ class HushUITests: XCTestCase {
         settingsApp.launch()
         settingsApp.tables.cells.staticTexts["Safari"].tap()
         settingsApp.tables.cells.staticTexts["Extensions"].firstMatch.tap()
-        if settingsApp.switches["Hush"].value as? String != (isOn ? "1" : "0") {
-            settingsApp.switches["Hush"].tap()
+        if settingsApp.switches["SilentSafari"].value as? String != (isOn ? "1" : "0") {
+            settingsApp.switches["SilentSafari"].tap()
         }
         settingsApp.terminate()
     }

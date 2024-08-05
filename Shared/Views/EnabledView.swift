@@ -15,7 +15,7 @@ func makeStoreURL(appID: String, action: String) -> URL {
 struct EnabledView: View {
     let reviewURL = makeStoreURL(appID:"1544743900", action: "write-review")
     let reportWebsiteURL = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeox139lwja1Yl94dIZLSg8Ga8Wt4PAWSmRwtIe7NPb7WtHMA/viewform")!
-    let starProjectURL = URL(string: "https://github.com/oblador/hush")!
+    let starProjectURL = URL(string: "https://github.com/luongthomas/Silent-Safari-iOS")!
     
     #if os(macOS)
     let verticalSpacing: CGFloat = 25
@@ -27,7 +27,7 @@ struct EnabledView: View {
         VStack (alignment: .leading, spacing: verticalSpacing) {
             
             VStack (alignment: .leading, spacing: 5) {
-                Text("Hush is enabled")
+                Text("SilentSafari is enabled")
                     .font(.title)
                     .accessibilityIdentifier("extension enabled")
                  Text("You're now browsing without the nuisance.")
